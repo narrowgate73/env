@@ -1,2 +1,13 @@
 1) 가상환경생성법
    - conda dreate -n 가상환경이름 python=version
+   
+2) 가상환경 목록 확인
+   - conda env list
+   - conda info --env
+   
+3) 가상환경 활성화 및 비활성화
+   - conda activate 가상환경이름
+   - conda deactivate 가상환경 이름
+ 
+4) 가상환경 삭세
+   - conda env remove -n 가상환경이름
