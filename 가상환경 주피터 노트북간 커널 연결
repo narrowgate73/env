@@ -1,0 +1,10 @@
+1) 가상환경 활성화
+   - 명령프롬프트에서 활성화 
+
+2) 가상환경에 주피터 노트북설치
+   - pip install jupyter notebook
+   - pip install ipykernel (보통 위의 주피터 노트북을 인스톨하면 ipykernel은 같이 설치됨)
+   
+3) 주피터 노트북에 커널 연결
+   - python -m ipykernel install --user --name 가상환경이름 --display-name "주피터에서 표시할 이름"
+                                                            (띄어쓰주의 : 띄어쓰기하면 안됨)
