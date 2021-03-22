@@ -1,0 +1,2 @@
+1) 가상환경생성법
+   - conda dreate -n 가상환경이름 python=version
